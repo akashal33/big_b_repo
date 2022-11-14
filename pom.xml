@@ -27,7 +27,9 @@
     <artifactId>spring-core</artifactId>
     <version>5.3.23</version>
 </dependency>
-    
+    // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+compileOnly 'javax.servlet:javax.servlet-api:4.0.1'
+
   </dependencies>
 
   <build>
